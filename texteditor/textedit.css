@@ -5,7 +5,7 @@
   }
   body {
     background-color: rgb(41,41,41);
-    color:#fff
+    color:#d6d6d6;
   }
   .container {
     background-color: #333;
@@ -33,11 +33,11 @@
     border: none;
     background-color: #333;
     outline: none;
-    color: #fff;
+    color: #d6d6d6;
   }
   select {
     padding: 7px;
-    border: 1px solid #020929;
+    border: 1px solid #292929;
     border-radius: 3px;
   }
   .options label,
@@ -61,18 +61,18 @@
   }
   input[type="color"]::-webkit-color-swatch {
     border-radius: 15px;
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
+    box-shadow: 0 0 0 2px #d6d6d6, 0 0 0 3px #292929;
   }
   input[type="color"]::-moz-color-swatch {
     border-radius: 15px;
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
+    box-shadow: 0 0 0 2px #d6d6d6, 0 0 0 3px #292929;
   }
   #text-input {
     margin-top: 10px;
-    border: 1px solid #dddddd;
+    border: 1px solid #d6d6d6;
     padding: 20px;
     height: 50vh;
   }
   .active {
-    background-color: #e0e9ff;
+    background-color: #292929;
   }
