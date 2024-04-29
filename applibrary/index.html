@@ -5,64 +5,168 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="../style.css">
+    <!--<link rel="stylesheet" href="../style.css">-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/bread.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/beercss@3.5.4/dist/cdn/beer.min.css" rel="stylesheet">
     <title>App Library</title>
 </head>
-<body>
-    <h1>CloudOS App Library</h1>
-    <div class="gridContainer">
+<body class="dark padding">
+    <h1>App Library</h1>
+    <br>
+    <div class="grid">
         <!--div.appCard>h3{App Name}+a[href="appurl" target="_blank"]>btn{Open App}-->
-        <div class="appCard">
-            <h3><i class="fa-brands fa-google"></i> Google Search</h3>
-            <a href="https://google.com" target="_blank"><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3><i class="fa-brands fa-microsoft"></i> Bing</h3>
-        <a href='https://bing.com' target='_self'><button>Open App</button></a>
-        </div>
-        <div class="appCard">
-            <h3><i class="fa-brands fa-google-drive"></i> Google Drive</h3>
-            <a href="https://drive.google.com" target="_blank"><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3><i class="fa-solid fa-cloud-arrow-up"></i> OneDrive</h3>
-        <a href='https://onedrive.com' target='_blank'><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3><i class="fa-solid fa-file-word"></i> TextEditor</h3>
-        <a href='/texteditor/' target='_self'><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3><i class="fa-solid fa-calculator"></i> Calculator</h3>
-        <a href='/calculator/' target='_self'><button>Open App</button></a>
-        </div>
-        <div class="appCard">
-            <h3><i class="fa-brands fa-youtube"></i> YouTube</h3>
-            <a href="https://youtube.com" target="_blank"><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3><i class="fa-solid fa-envelope-open-text"></i> Outlook</h3>
-        <a href='https://outlook.com' target='_blank'><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3><i class="fa-solid fa-envelope"></i> Gmail</h3>
-        <a href='https://gmail.com' target='_blank'><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3>bubblyduck</h3>
-        <a href='https://bubblyduck.xyz' target='_blank'><button>Open App</button></a>
-        </div>
-        <div class='appCard'>
-        <h3><i class="fa-solid fa-terminal"></i> Coding</h3>
-        <a href='codingapps/' target='_self'><button>Open Group</button></a>
-        </div>
-        <div class="appCard">
-            <h3><i class="fa-solid fa-plus"></i> Add New App</h3>
-            <a href="https://forms.gle/9fWA6vMGkZ1tzxv69"><button>Open App</button></a>
-        </div>
+        
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>search</i>
+            <div class="max">
+                <h5>Google</h5>
+                <p>Search Engine</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://google.com" target=""><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>search</i>
+            <div class="max">
+                <h5>Bing</h5>
+                <p>Search Engine</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://bing.com" target="_self"><button>Open</button></a>
+            <a href="https://bing.com" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>cloud</i>
+            <div class="max">
+                <h5>Google Drive</h5>
+                <p>Cloud Storage</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://drive.google.com" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>cloud</i>
+            <div class="max">
+                <h5>OneDrive</h5>
+                <p>Cloud Storage</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://onedrive.com" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>edit</i>
+            <div class="max">
+                <h5>Writing</h5>
+                <p>Text Editor</p>
+            </div>
+            </div>
+            <nav>
+            <a href="../writing/" target="_self"><button>Open</button></a>
+            <a href="../writing/" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>calculate</i>
+            <div class="max">
+                <h5>Calculator</h5>
+                <p>Utilities</p>
+            </div>
+            </div>
+            <nav>
+            <a href="../calculator/" target="_self"><button>Open</button></a>
+            <a href="../calculator/" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>subscriptions</i>
+            <div class="max">
+                <h5>YouTube</h5>
+                <p>Entertainment</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://youtube.com" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>mail</i>
+            <div class="max">
+                <h5>Outlook</h5>
+                <p>Email Client</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://outlook.com" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>mail</i>
+            <div class="max">
+                <h5>Gmail</h5>
+                <p>Email Client</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://mail.google.com/" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i><img src="/bread.png"></i>
+            <div class="max">
+                <h5>unbreadedbread</h5>
+                <p>My Website</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://unbreadedbread.cc" target="_self"><button>Open</button></a>
+            <a href="https://unbreadedbread.cc" target="_blank"><button>New Tab</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>code</i>
+            <div class="max">
+                <h5>Coding</h5>
+                <p>Group</p>
+            </div>
+            </div>
+            <nav>
+            <a href="codingapps/" target="_self"><button>Open Group</button></a>
+            </nav>
+        </article>
+        <article class="s12 m6 l3">
+            <div class="row">
+            <i>widgets</i>
+            <div class="max">
+                <h5>App Request</h5>
+                <p>Misc.</p>
+            </div>
+            </div>
+            <nav>
+            <a href="https://forms.gle/9fWA6vMGkZ1tzxv69" target="_self"><button>Open</button></a>
+            </nav>
+        </article>
     </div>
 </body>
 </html>
